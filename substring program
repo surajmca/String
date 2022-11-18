@@ -1,0 +1,19 @@
+// Write a program to print tha unicode of the program
+
+
+import java.util.Scanner;
+class str3 {
+    public static void main(String[] args) {
+        
+        String str;
+        int i;
+        System.out.println("Enter the string : ");
+        Scanner sc = new Scanner(System.in);
+        str = sc.nextLine();
+            System.out.println(str.codePointAt(2));
+    }
+}
+
+/* output 
+Enter the string : ramu
+ 109
